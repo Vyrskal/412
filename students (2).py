@@ -3,7 +3,7 @@ import json
 with open ('config.json','r',encoding="utf-8") as file:
     data = json.load(file)
  
-data["author"] ="Jamil"
+data["author"] ="team"
 data["server"]["port"] = 2024
 data["server"]["port2"] = 2025
 data["openInBrowser"] = True
